@@ -14,9 +14,9 @@ let DisplayDiv = document.getElementById('DisplayDiv');
     if (isNaN(weight) || isNaN(height) || weight <= 0 || height <= 0){
         DisplayDiv.innerHTML = "Please input valid values"
     } else if (bmi < 18.5) {
-        DisplayDiv.innerHTML = "You are in the underweight"
+        DisplayDiv.innerHTML = "You are underweight"
     } else if (bmi > 24.9) {
-        DisplayDiv.innerHTML = "You are in the overweight"
+        DisplayDiv.innerHTML = "You are overweight"
     } else {
     DisplayDiv.innerHTML = "You are in the healthy range"
     }
