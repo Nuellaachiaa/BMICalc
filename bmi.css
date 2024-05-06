@@ -1,73 +1,74 @@
 body{
-    background-image: url('pexels-eberhard-grossgasteiger-1366919.jpg');
+    /* background-image: url('pexels-eberhard-grossgasteiger-1366919.jpg'); */
+    background-color: #003C43;
     height: 100vh;
     background-position: center;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
 }
 
 .main{
-    height: 90vh; 
-    width: 50vw;
-    margin: 60px auto;
+    height: 80vh; 
     background-color: white;
     background: transparent;
-    backdrop-filter: blur(15px);
     border-radius: 15px;
     border: 0.5px solid white;
+    
 }
 
 .name{
-    color: rgb(119, 119, 251);
+    color: #77B0AA;
     text-align: center;
 }
 
 form{
-    margin-left: 80px;
-    margin-top: 70px;
     font: bold 25px normal;
     color: rgba(13, 27, 38, 0.578);
+}
 
+label{
+    color: black;
 }
 
 form input{
     background: transparent;
-    width: 220px;
-    height: 30px;
     border-color: white;
     border-radius: 5px;
+    padding: 0.4rem;
 }
 
 button{
     font: small-caps 20px normal;
-    position: absolute;
-    top: 65%;
-    left: 40%;
     width: 120px;
-    background: transparent;
+     background: transparent;
     height: 50px;
-    border: 3px solid rgb(119, 119, 251);
-    cursor: pointer;
+    border: 3px solid #77B0AA;; 
+     cursor: pointer;
+}
+
+.bottom{
+    margin-top: 10px;
+    margin-left: 140px;
 }
 
 button:hover{
-    background:  rgb(119, 119, 251);
+    background: #77B0AA;;
 }
 
 #resultDiv{
     background: floralwhite;
     font-size: 1.2rem;
-    position: absolute;
-    top: 80%;
-    left: 43%;
     width: 90px;
     height: 30px;
+    margin-left: 15px;
     text-align: center;
 }
 
 #DisplayDiv{
-    position: absolute;
-    top: 90%;
-    left: 30%;
     font: oblique 25px bolder;
     text-align: center;
 }
